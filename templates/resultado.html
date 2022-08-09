@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resultado</title>
+    </head>
+    <body>
+        <h1>Esta es la página con el resultado de la predicción.</h1>
+        <h1>La imagen que ha introducido corresponde a...</h1>
+
+        {% for r,p in res %}
+        {{r}} {{p}}<br>
+        {% endfor %}
+        
+    </body>
+</html>
